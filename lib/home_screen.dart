@@ -57,12 +57,12 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
               BackdropFilter(
-                filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+                filter: ImageFilter.blur(sigmaX: 100.0, sigmaY: 100.0),
                 child: Container(
                   color: Colors.transparent,
                 ),
               ),
-
+              
               /// MAIN CONTENT
               SingleChildScrollView(
                 child: SizedBox(
